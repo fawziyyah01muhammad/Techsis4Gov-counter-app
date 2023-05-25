@@ -19,7 +19,8 @@ counter.textContent = count;
 save.addEventListener('click', ()=>{
    let preEntry = count + " - "
  saveEntry.textContent += preEntry
- counter.textContent = 0
+ count = 0
+ counter.textContent = count
  })
 
  clear.addEventListener('click', ()=> {
